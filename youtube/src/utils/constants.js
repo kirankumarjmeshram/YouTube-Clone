@@ -15,8 +15,8 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/YouTube_play_button_square_%282013-2017%29.svg/768px-YouTube_play_button_square_%282013-2017%29.svg.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
+  { name: 'Home', icon: <HomeIcon />, },
+  { name: 'Kirankumar J M', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
