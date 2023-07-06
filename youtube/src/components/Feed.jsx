@@ -15,6 +15,12 @@ const Feed = () => {
             Copyright 2023
           </Typography>
         </Box>
+        <Box p={2} sx={{overflow:'auto', height: '90', flex: 2}}>
+          <Typography variant='h4' fontWeight='bold' mb={2} sx={{color:'white'}}>
+            New <span style={{color: '#F31503'}}>videos</span>
+          </Typography>
+          
+        </Box>
       </Stack>
   )
 }
