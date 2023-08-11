@@ -4,6 +4,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 import {Sidebar, Videos} from './';
 
 const Feed = () => {
+  
   const [selectedCategory, setSelectedCategory] = useState('New');
   const [videos, setVideos]= useState([])
   useEffect(()=>{
